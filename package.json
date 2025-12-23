@@ -9,6 +9,9 @@
     "@tailwindcss/cli": "4.1.17",
     "@tailwindcss/postcss": "4.1.17"
   },
+  "optionalDependencies": {
+        "@esbuild/linux-x64":"0.24.0"
+  },
   "scripts": {
     "build": "./run yarn:build",
     "build:css": "./run yarn:build:css"
